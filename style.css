@@ -1,0 +1,31 @@
+.gh-outline-root {
+  background-color: #F6F8FA;
+  border-right: 1px solid #e1e4e8;
+  padding: 2rem;
+  resize: horizontal;
+  overflow: scroll;
+  min-width: 15rem;
+}
+
+.gh-outline-root .gh-outline-item {
+  margin: 0.2rem;
+}
+
+.gh-outline-root .gh-outline-item.lv-1 {
+  padding-left: 0;
+}
+.gh-outline-root .gh-outline-item.lv-2 {
+  padding-left: 1rem;
+}
+.gh-outline-root .gh-outline-item.lv-3 {
+  padding-left: 2rem;
+}
+.gh-outline-root .gh-outline-item.lv-4 {
+  padding-left: 3rem;
+}
+.gh-outline-root .gh-outline-item.lv-5 {
+  padding-left: 4rem;
+}
+.gh-outline-root .gh-outline-item.lv-6 {
+  padding-left: 5rem;
+}

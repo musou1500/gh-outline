@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "GitHub markdown TOC",
+  "version": "0.0.1",
+  "description": "add toc for markdown files on GitHub",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*/*"
+      ],
+      "js": ["./content.js"],
+      "css": ["./style.css"]
+    }
+  ],
+  "permissions": [
+    "https://github.com/*/*",
+    "webNavigation",
+    "tabs"
+  ],
+  "author": "musou1500"
+}

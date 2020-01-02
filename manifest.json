@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "GitHub markdown TOC",
   "version": "0.0.1",
-  "description": "add toc for markdown files on GitHub",
+  "description": "add toc of markdown files on GitHub",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
